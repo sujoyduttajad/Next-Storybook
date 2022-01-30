@@ -1,4 +1,4 @@
-
+// .storybook/preview.js
 import "../styles/globals.css"
 
 export const parameters = {
