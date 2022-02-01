@@ -11,7 +11,7 @@ if( typeof global.process === "undefined" ) {
   const worker = setupWorker(
     // Inside this function I wanna setup a rest route
     rest.get("http://localhost:3000/api/hello", (req, res, ctx) => {
-      return res(ctx.json({ name: "John Doe" }))
+      return res(ctx.json({ name: "John Hamm" }))
     })
   );
   worker.start();
